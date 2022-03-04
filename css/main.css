@@ -1,0 +1,50 @@
+h1 {
+    color: #00e5ff;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    color: green;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+
+body {
+    background-color: beige;
+    opacity: 0.6;
+}
+
+
+li {
+    display: inline;
+    padding: 14px 16px;
+    float: left;
+    
+    
+}
+
+
+ul {
+    background-color: black;
+
+}
+
+
+li a {
+
+    display: block;
+    color: #00ff37;
+}
+
+
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+li:last-child {
+    border-right: none;
+}
