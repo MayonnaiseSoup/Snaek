@@ -34,10 +34,13 @@ li:last-child {
     border-right: none;
 }
 
-
-.searchbar {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-49%, -49%);
-  }
+input[type=text], select {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #41a642;
+    border-radius: 4px;
+    
+}
