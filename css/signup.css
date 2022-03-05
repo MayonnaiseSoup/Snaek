@@ -21,7 +21,8 @@ ul {
 li a {
 
     display: block;
-    color: #00ff37;
+    color: black;
+    font-family: monospace;
 }
 
 
@@ -31,4 +32,58 @@ li {
   
 li:last-child {
     border-right: none;
+}
+
+
+
+.signupbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.signupform {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-49%, -49%);
+
+  }
+
+
+  input[type=text], select {
+    width: 175%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #41a642;
+    border-radius: 4px;
+    
+}
+
+input[type=password], select {
+    
+    width: 175%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #41a642;
+    border-radius: 4px;
+    
+}
+
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 100px;
 }
