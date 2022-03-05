@@ -22,7 +22,8 @@ h1 {
 li a {
 
     display: block;
-    color: #00ff37;
+    color: black;
+    font-family: monospace;;
 }
 
 
