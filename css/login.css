@@ -10,6 +10,19 @@ input[type=text], select {
 }
 
 
+
+input[type=password], select {
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #41a642;
+    border-radius: 4px;
+    
+}
+
+
 .loggy {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -19,6 +32,7 @@ input[type=text], select {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
   
 
@@ -71,8 +85,13 @@ li:last-child {
     top: 50%;
     left: 45%;
     transform: translate(-49%, -49%);
-    border-width: medium;
-    border-style: solid;
-    border-radius: 5px;
-    
+
   }
+
+
+  .signuplink {
+      padding-top: 25px;
+      font-family: monospace;
+  }
+
+
