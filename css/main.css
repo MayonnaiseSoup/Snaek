@@ -49,3 +49,9 @@ li {
 li:last-child {
     border-right: none;
 }
+
+
+.bottomfooter {
+    text-align: center;
+    bottom: 10px;
+}
