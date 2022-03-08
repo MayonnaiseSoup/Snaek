@@ -1,5 +1,5 @@
 .mainHeader {
-    color: #00e5ff;
+    color: black;
     font-family: monospace;
     text-align: center;
     padding-top: 50px;
@@ -14,7 +14,7 @@ p {
 
 
 body {
-    background-color: beige;
+    background-color: white;
     opacity: 0.6;
 }
 
@@ -98,3 +98,14 @@ li:last-child {
       margin-bottom: 20px;
     }
   }
+
+
+.row {
+    padding-bottom: 20px;
+}
+
+
+
+.spaceforpadding {
+    padding-bottom: 50px;
+}
