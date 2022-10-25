@@ -1,5 +1,8 @@
 .searchHeader {
     color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -19,7 +22,9 @@ h1 {
     color: grey;
     font-family: monospace;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 15rem;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 
@@ -66,5 +71,6 @@ p {
 }
 
 .searchbar {
-    padding-left: 540px;
+    padding-left: 438px;
+    width: 90rem;
 }
