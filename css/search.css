@@ -59,8 +59,9 @@ input[type=text], select {
     text-align: center;
     position: absolute;
     bottom: 0;
-    padding-left: 300px;
-    
+    padding-left: 18.75rem;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -71,6 +72,6 @@ p {
 }
 
 .searchbar {
-    padding-left: 438px;
+    padding-left: 27rem;
     width: 90rem;
 }
