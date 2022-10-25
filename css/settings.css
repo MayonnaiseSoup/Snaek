@@ -4,9 +4,9 @@ body {
 }
 
 li {
-    display: inline;
+    display: block;
     padding: 14px 16px;
-
+    float: left;
     
     
 }
@@ -18,7 +18,7 @@ ul {
 }
 
 
-li a {
+.navbarLink {
 
     display: block;
     color: black;
@@ -26,11 +26,11 @@ li a {
 }
 
 
-li {
+.navbar {
     border-right: 1px solid #bbb;
   }
   
-li:last-child {
+.navbar:last-child {
     border-right: none;
 }
 
@@ -96,4 +96,10 @@ li:last-child {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  .Settings {
+      padding-top: 5rem;
+      display: block;
+      font-family: monospace;
   }
