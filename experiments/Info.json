@@ -1,0 +1,7 @@
+{
+    "secret": "sfsaad7898fdsfsdf^*($%^*$",
+    "connectionString": "mongodb+srv://username:password@cluster0.laaif.mongodb.net/events?retryWrites=true&w=majority",
+    "localConnectionString": "mongodb+srv://username:password@cluster0.laaif.mongodb.net/eventsLocal?retryWrites=true&w=majority",
+    "frontendClient": "https://helloworld.com",
+    "localFrontendClient": "http://localhost:3000"
+ }
